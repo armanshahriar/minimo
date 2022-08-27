@@ -1,0 +1,296 @@
+/* common css start */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+
+}
+
+/* common css end */
+/* header css start */
+.header {
+    /* border: 1px solid black; */
+    padding: 26px 0;
+}
+
+.wrraper {
+    width: 90%;
+    /* border: 1px solid wheat; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    width: 15%;
+    /* border: 1px solid rebeccapurple; */
+    float: left;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    width: 100%;
+}
+
+.menu {
+    width: 70%;
+    /* border: 1px solid red; */
+    float: right;
+}
+
+.menu ul {
+    margin: 0;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin: 0px 39px;
+    padding: 3px 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    color: #626262;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+
+.menu ul li a:hover {
+    color: #000000;
+    border-bottom: 1px solid #626262;
+}
+
+/* header css end */
+/* banner css start */
+.banner {
+    padding: 40px 0;
+}
+
+.b_img img {
+    width: 100%;
+}
+
+/* banner css end */
+/* perfet css start */
+.perfet {
+    padding: 60px 0;
+}
+
+.wrraper2 {
+    overflow: hidden;
+    width: 80%;
+    /* border: 1px solid rosybrown; */
+    margin: 0 auto;
+}
+
+.p_content {}
+
+.c_light {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.c_h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.c_text {
+    margin: 0;
+    line-height: 25px;
+    margin-bottom: 45px;
+
+}
+
+/* perfet css end */
+/* blog css start */
+.blog1 {
+    margin: 70px 0 10px;
+}
+
+.blog_content {
+    float: left;
+    overflow: hidden;
+}
+
+.s_blog {
+    width: 47.4%;
+    /* border: 1px solid royalblue; */
+    float: left;
+    margin-bottom: 35px;
+}
+
+.s_blog:nth-child(even) {
+    margin-left: 65.8px;
+}
+
+.blog_img {
+    margin-bottom: 25px;
+}
+
+.blog_img img {
+    width: 100%;
+}
+
+/* blog css end */
+/* newsletter css start */
+.newsletter {
+    margin: 70px 0 100px;
+    background-color: #F0F0F0;
+    min-height: 290px;
+}
+
+
+.login {
+    margin: 70px 0;
+    text-align: center;
+}
+
+.s_h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.s_form {
+    position: relative;
+    width: 400px;
+    /* border: 1px solid tan; */
+    margin: 0 auto;
+}
+
+.s_form input {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #626262;
+    width: 343px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+
+.s_form input:focus {
+    outline: 0;
+}
+
+.s_form button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+
+.s_form button:focus {
+    outline: 0;
+}
+
+.s_form button img {}
+
+/* newsletter css end */
+/* blog2 css start */
+.load {
+    margin: 50px 0 110px;
+    text-align: center;
+}
+
+.load_btn {
+    width: 165px;
+    height: 60px;
+    border: 1px solid #626262;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+}
+
+.load_btn:active {
+    border: 1px solid black;
+    background-color: #626262;
+    color: white;
+
+}
+
+/* blog2 css end */
+/* footer part start */
+footer{
+    background-color: #F0F0F0;
+    padding: 35px 0;
+}
+.terms {
+    float: left;
+}
+
+.terms ul {}
+
+.terms ul li {
+    list-style: none;
+    float: left;
+    padding: 0 0 0 12px;
+}
+
+.terms ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.social {
+    float: right;
+}
+
+.social ul {}
+
+.social ul li {
+    list-style: none;
+    float: left;
+    padding: 0 0 0 13px;
+}
+
+.social ul li span {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.social ul li a img {}
+
+/* footer part end */
